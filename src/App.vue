@@ -46,9 +46,9 @@
 </style>
 
 <script>
-  import Task from './components/Tasks.vue'
+  import Tasks from './components/Tasks.vue'
   export default{
-    component:{Task},
+    component:{Tasks},
     data(){
       return{
         tasks:[],

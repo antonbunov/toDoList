@@ -1,6 +1,6 @@
 <template>
   <ul class="toDo__list">
-    <li class="toDo__item" v-if="tasks.length>0" v-for="(task, index) in myTasks" >
+    <li class="toDo__item" v-if="myTasks.length>0" v-for="(task, index) in myTasks" >
       <div class="toDo__content">
         <p class="toDo__base-text">{{ task.baseText }}</p>
         <p class="toDo__detail-input">{{ task.detailText }}</p>
